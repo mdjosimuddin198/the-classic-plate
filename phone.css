@@ -1,0 +1,49 @@
+/* navbar section  */
+
+
+.navbar {
+    flex-direction: column;
+}
+
+.navbar a {
+    font-size: 20px;
+    margin: -2px 2px;
+   /* padding: 0px 5px; */
+    /* width: 65px; */
+}
+/* home section  */
+.home::before{
+    height: 500px;
+}
+.home-section{
+    height: 400px;
+}
+
+/* service section */
+.service-box {
+    flex-direction: column;
+}
+.box{
+    margin: 5px 46px;
+}
+
+/* address section  */
+.address-bar{
+    margin-left: 10px;
+}
+
+/* cntact section  */
+.form input{
+    font-size: 1rem;
+}
+.form textarea{
+    width: 200px;
+}
+.contact::before{
+    height: 550px;
+}
+
+/* utility class */
+.h-primary {
+    font-size: 1.5rem;
+}
